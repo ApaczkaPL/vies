@@ -320,7 +320,7 @@ class Vies
                 'Country %s is no longer supported by VIES services provided by EC since %s because of %s',
                 self::VIES_EXCLUDED_COUNTRY_CODES[$countryCode]['name'],
                 self::VIES_EXCLUDED_COUNTRY_CODES[$countryCode]['excluded'],
-                self::VIES_EXCLUDED_COUNTRY_CODES[$countryCode]['reason'],
+                self::VIES_EXCLUDED_COUNTRY_CODES[$countryCode]['reason']
             ));
         }
 
